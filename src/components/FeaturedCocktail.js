@@ -5,7 +5,7 @@ function FeaturedCocktail() {
     const [featuredCocktails, setFeaturedCocktails]=useState([]);
 
     useEffect(()=> {
-        fetch("")
+        fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s")
         .then((response)=> response.json())
         .then((data)=> setFeaturedCocktails(data.drinks.slice(0,5)))
         .catch((error)=>console.log(error))
@@ -21,7 +21,7 @@ function FeaturedCocktail() {
             })}
         </ul>
     </div>
-  )
-}
+  );
+};
 
 export default FeaturedCocktail;

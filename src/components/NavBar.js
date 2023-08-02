@@ -12,10 +12,7 @@ function NavBar() {
                 <link to="/featured">Featured Cocktails</link>
             </li>
             <li>
-                <link to="/search">Search</link>
-            </li>
-            <li>
-                <link to="/user-form">User Form</link>
+                <link to="/cocktails">Cocktail List</link>
             </li>
         </ul>
     </nav>
