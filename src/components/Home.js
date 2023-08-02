@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
-        <h2>Welcome to our app. Feel free to go through the available cocktails!</h2>
+        <h2>Feeling thirsty? Dont worry, in here we show you a couple of drinks and how to make them.Start your exploration</h2>
     </div>
   )
 }

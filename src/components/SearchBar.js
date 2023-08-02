@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
-import { useHistory } from 'react-router-dom'
+import React, {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function SearchBar() {
     const [searchTerm, setSearchTerm]=useState(``);
-    const history=useHistory();
+    const navigate = useNavigate();
 
     function handleChange(e) {
         setSearchTerm(e.target.value);
@@ -11,7 +11,7 @@ function SearchBar() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        history.push(`/cocktails?search=${encodeURIComponent(searchTerm)}`);
+        navigate.push(`/cocktails?search=${encodeURIComponent(searchTerm)}`);
     };
   return (
     <div>

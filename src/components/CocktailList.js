@@ -22,7 +22,7 @@ function CocktailList() {
       <ul>
         {cocktails.map((cocktail) => (
           <li key={cocktail.idDrink}>
-            <link to={`/cocktails/${cocktail.idDrink}`}>{cocktail.strDrink}</link>
+            <Link to={`/cocktails/${cocktail.idDrink}`}>{cocktail.strDrink}</Link>
           </li>
         ))}
       </ul>
@@ -30,4 +30,4 @@ function CocktailList() {
   )
 }
 
-export default CocktailList
+export default CocktailList;
