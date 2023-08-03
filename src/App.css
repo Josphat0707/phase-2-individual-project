@@ -7,6 +7,7 @@
   text-align: center;
   color: white;
   background-image: url(./alcohol.jpg);
+  font-family: serif;
 }
 
 .navbar {
@@ -35,10 +36,20 @@
   margin-left: 0;
 }
 
-/* Define the color for the links */
+
 .nav-links a {
-  color: white; /* Change this color to your desired text color */
+  color: white;
   text-decoration: none;
+}
+
+.cocktail-list li a{
+  color: white;
+  font-family: serif;
+}
+
+.featured-cocktails li a{
+  color: white;
+  font-family: serif;
 }
 
 

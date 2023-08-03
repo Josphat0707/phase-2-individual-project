@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import '../App.css'
 
 function CocktailList() {
   const[cocktails, setCocktails]= useState([]);
@@ -16,7 +17,7 @@ function CocktailList() {
     setSearchTerm(e.target.value);
   };
   return (
-    <div>
+    <div className='cocktail-list'>
       <h2>Cocktail List</h2>
       <input type="text" value={searchTerm} onChange={handleChange} placeholder="Search for Cocktail"/>
       <ul>

@@ -19,8 +19,16 @@ function CocktailDetail() {
 
   return (
     <div>
-        <h2>{cocktail.strDrink}</h2>
-        <p>{cocktail.strInstructions}</p>
+        <h2>Drink: {cocktail.strDrink}</h2>
+        <p>Category: {cocktail.strCategory}</p>
+        <p>Alcoholic or Non Alcoholic: {cocktail.strAlcoholic}</p>
+        <p>Glass: {cocktail.strGlass}</p>
+        <p>Ingridient 1: {cocktail.strIngredient1}</p>
+        <p>Ingredient 2: {cocktail.strIngredient2}</p>
+        <p>Ingredient 3: {cocktail.strIngredient3}</p>
+        <p>Measurement 1: {cocktail.strMeasure1}</p>
+        <p>Instructions: {cocktail.strInstructions}</p>
+        <p>{cocktail.strDrinkThumb}</p>
     </div>
   );
 }

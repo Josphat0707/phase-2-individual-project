@@ -14,7 +14,7 @@ function FeaturedCocktail() {
         .catch((error)=>console.log(error))
     },[]);
   return (
-    <div>
+    <div className='featured-cocktails'>
         <h2>Featured Cocktails</h2>
         <ul>
             {featuredCocktails.map((cocktail) => (
