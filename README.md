@@ -6,7 +6,9 @@ This project provides a user with a list of cocktails and more features.
 The program helps a user see a list of drinks, how to make the drink etc
 
 ### Installation
-Click on the submitted link, fork te project into your computer, open the project in your vs code and in the app.js file, run the command npm start.
+The project is hosted and to be able to see it, one can click on the following link `` and view it on the browser. One can also fork the project on their computer and run it from their computer. In order to do so one has to do the following:
+
+Click on this link `https://github.com/Josphat0707/phase-2-individual-project.git`, fork the project into your computer, open the project in your vs code and in the app.js file, run the command npm start.
 
 ### Project Setup
 The project fetches data from a public API. Once this data is fetched from the API it is setup in the file named `cocktaildetail.js`. The file is exported to other files but in order for the drinks to be displayed, i have used routers. that is `Home`, `Featured Cocktail`, `Cocktail list`. 
