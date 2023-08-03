@@ -9,10 +9,16 @@ The program helps a user see a list of drinks, how to make the drink etc
 Click on the submitted link, fork te project into your computer, open the project in your vs code and in the app.js file, run the command npm start.
 
 ### Project Setup
-The project fetches data from a public API, and displays the data once you click on the "featured cocktails" link on the browser. On that list when you click on a particular drink, you get;
+The project fetches data from a public API. Once this data is fetched from the API it is setup in the file named `cocktaildetail.js`. The file is exported to other files but in order for the drinks to be displayed, i have used routers. that is `Home`, `Featured Cocktail`, `Cocktail list`. 
+
+On the browser, they appear in form of links and they direct youu to other pages even though the project is a single page project. When one clicks on any of the links, data is shown in the browser right below the navigation bar. For example, when one click on the cocktail list link, they get the following information;
+
 1. The drink name
 2. The drink's category
-3. Instruction on how to make the drink
+3. Whether the drink is alcoholic or not
+4. Ingredients needed to make the drink
+5. Measurements needed for the ingredients
+6. Instructions
 
 ### Technologies used
 1. Javascript
