@@ -6,7 +6,7 @@ This project provides a user with a list of cocktails and more features.
 The program helps a user see a list of drinks, how to make the drink etc
 
 ### Installation
-The project is hosted and to be able to see it, one can click on the following link `` and view it on the browser. One can also fork the project on their computer and run it from their computer. In order to do so one has to do the following:
+The project is hosted and to be able to see it, one can click on the following link `https://phase-2-individual-project-1234.vercel.app/` and view it on the browser. One can also fork the project on their computer and run it from their computer. In order to do so one has to do the following:
 
 Click on this link `https://github.com/Josphat0707/phase-2-individual-project.git`, fork the project into your computer, open the project in your vs code and in the app.js file, run the command npm start.
 
